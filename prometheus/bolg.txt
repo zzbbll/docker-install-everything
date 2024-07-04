@@ -1,1 +1,7 @@
 https://developer.aliyun.com/article/1158325
+
+
+https://developer.aliyun.com/article/1158325
+https://blog.csdn.net/qq_33317586/article/details/115301429
+https://github.com/prometheus/blackbox_exporter
+docker run -d -p 9115:9115 -v /opt/softwares/prometheus/conf/config.yml:/etc/blackbox_exporter/config.yml --name blackbox_exporter prom/blackbox-exporter:master
